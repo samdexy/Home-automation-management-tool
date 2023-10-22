@@ -1,0 +1,39 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+
+
+*, ::after, ::before {
+    box-sizing: unset!important;
+}
+
+.divMinSideabar {
+    max-width: calc(100% - 22rem)!important;
+}
+
+.link:hover {
+    cursor: pointer!important;
+    color: rgba(122, 122, 124, 0.63)!important
+}
+
+.gradGreen {
+    background: rgb(52,190,193);
+    background: linear-gradient(0deg, rgba(52,190,193,1) 0%, rgba(96,222,182,1) 100%);
+}
+.gradBlue{
+    background: rgb(26,145,233);
+    background: linear-gradient(0deg, rgba(26,145,233,1) 0%, rgba(33,187,241,1) 100%);
+}
+
+.gradRed {
+    background: rgb(254,111,101);
+    background: linear-gradient(0deg, rgba(254,111,101,1) 0%, rgba(255,26,112,1) 100%);
+}
+
+.border-box {
+    width: calc(100% - 1.5rem)!important
+
+}
